@@ -1,0 +1,133 @@
+/* CSS para darle forma basica , no le den importancia */
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background: #0f0f0f;
+    color: white;
+    width: 100%;
+}
+header{
+    border: 1px solid #303030;
+    width: 100%;
+    height: 56px;
+}
+main{
+    width: 100%;
+    height: 500px;
+
+
+}
+/* CSS para el footer  */
+.container-foot{
+    width: 100%;
+    height: 300px;
+    border-top: 1px solid #303030;
+    border-bottom: 1px solid #303030;
+    color: #AAAAAA;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1;
+    grid-template-areas: "caja-1  caja-2  caja-3";
+}
+
+.caja-logo{
+    grid-area: caja-1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.item-logo{
+    display: inline-flex;
+    width: 150px;
+    height: 40px;
+    
+}
+.item-logo img{
+    width: 100%;
+    padding: 0 10px;
+}
+
+.caja-general{
+    grid-area:caja-2 ;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 35% 20% 20%;
+    grid-template-areas: "titulo    titulo    titulo"
+                         "item1     item2     item3"
+                         "item4     item5       .  ";
+}
+.caja-general a{
+    text-decoration: none;
+    color: #AAAAAA;
+}
+.caja-general a:hover{
+    text-decoration: underline;
+}
+.item-titulo-g{
+    grid-area: titulo;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 1.5vw;
+}
+.item-list1{
+    grid-area: item1;
+    display: flex;
+    align-items: center;
+}.item-list2{
+    grid-area: item2;
+    display: flex;
+    align-items: center;
+}.item-list3{
+    grid-area: item3;
+    display: flex;
+    align-items: center;
+}.item-list4{
+    grid-area: item4;
+    display: flex;
+    align-items: center;
+}.item-list5{
+    grid-area: item5;
+    display: flex;
+    align-items: center;
+}
+
+.caja-social{
+    grid-area: caja-3;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 40% 50%;
+    grid-template-areas: "titulo titulo"
+                         "item   item";
+}
+.item-titulo-s{
+    grid-area: titulo ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 0 0 20px 0;
+    font-size: 1.5vw;
+    
+    
+}
+.item-social{
+    grid-area: item;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.item-social img{
+    margin: 0 15px;
+
+}
+.caja-copy{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #AAAAAA;
+}
