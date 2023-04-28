@@ -4,17 +4,31 @@
     height: 630px;
     left: 0px;
     top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    position: relative;
+    width: 600px;
+    height: 630px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 
     background: #0F0F0F;
     border-radius: 10px;
     }
-
-#formulario_IS {
+#divisor_iniciarS{
     position: absolute;
     width: 552px;
-    height: 544px;
+    height: 0px;
     left: 24px;
-    top: 43px;
+    top: 95px;
+
+    border: 1px solid #303030;
 }
 
 #email_label{
@@ -155,7 +169,7 @@
     height: 18px;
     left: 24px;
     top: 394px;
-
+    accent-color: #FF2A00;
     background: #FF2A00;
     border-radius: 2px;
     }
