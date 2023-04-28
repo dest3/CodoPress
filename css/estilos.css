@@ -1,3 +1,4 @@
+/* estilos de inicio de sesion */
 #inicio_de_sesion{
     position: absolute;
     width: 600px;
@@ -21,6 +22,7 @@
     background: #0F0F0F;
     border-radius: 10px;
     }
+
 #divisor_iniciarS{
     position: absolute;
     width: 552px;
@@ -110,7 +112,6 @@
     top: 387px;
 
 }
-
 
 #titulo_iniciarS{
     position: absolute;
@@ -218,4 +219,238 @@
 
     color: #FFFFFF;
 
+}
+
+/* contacto */
+
+
+#contact_bk{
+    position: relative;
+width: 1440px;
+height: 1207px;
+
+background: #0F0F0F;
+}
+
+#Titulo_contacto{
+    position: absolute;
+    width: 121px;
+    height: 20px;
+    left: 444px;
+    top: 144px;
+
+    /* H2 */
+
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 83% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#divisor_contacto{
+    position: absolute;
+    width: 552px;
+    height: 0px;
+    left: 444px;
+    top: 196px;
+
+    border: 1px solid #303030;
+}
+
+#label_nombre{
+    position: absolute;
+    width: 53px;
+    height: 20px;
+    left: 444px;
+    top: 228px;
+
+    /* H4 */
+
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+#input_nombre{
+    ox-sizing: border-box;
+
+    position: absolute;
+    width: 552px;
+    height: 64px;
+    left: 444px;
+    top: 264px;
+    color: #FFFFFF;
+    background: #212121;
+    border-radius: 4px;
+}
+
+#label_email{
+    position: absolute;
+    width: 124px;
+    height: 20px;
+    left: 444px;
+    top: 360px;
+
+    /* H4 */
+
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#input_email{
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 552px;
+    height: 64px;
+    left: 444px;
+    top: 396px;
+    color: #FFFFFF;
+    background: #212121;
+    border-radius: 4px;
+}
+
+#label_asunto{
+    position: absolute;
+    width: 47px;
+    height: 20px;
+    left: 444px;
+    top: 492px;
+
+    /* H4 */
+
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+}
+
+#input_asunto{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 552px;
+    height: 64px;
+    left: 444px;
+    top: 528px;
+    color: #FFFFFF;
+    background: #212121;
+    border-radius: 4px;
+}
+
+#label_mensaje{
+    position: absolute;
+    width: 54px;
+    height: 20px;
+    left: 444px;
+    top: 624px;
+
+    /* H4 */
+
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#input_text_box{
+    box-sizing: border-box;
+    /* text-justify:inter-word; */
+    position: absolute;
+    width: 552px;
+    height: 200px;
+    left: 444px;
+    top: 660px;
+    color: #FFFFFF;
+    background: #212121;
+    border-radius: 4px;
+}
+
+#input_check{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 444px;
+    top: 899px;
+    accent-color: #FF2A00 ;
+    background: #FF2A00;
+    border-radius: 2px;
+}
+
+#label_he_leido{
+    position: absolute;
+    width: 228px;
+    height: 20px;
+    left: 472px;
+    top: 898px;
+
+    /* Body */
+
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #AAAAAA;
+}
+
+#input_enviar{
+    position: absolute;
+    width: 167px;
+    height: 33px;
+    left: 829px;
+    top: 892px;
 }
