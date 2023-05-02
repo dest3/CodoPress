@@ -454,3 +454,21 @@ background: #0F0F0F;
     left: 829px;
     top: 892px;
 }
+
+/* NOTICIAS */
+
+/* body{
+    background-color: #0F0F0F;
+} */
+
+.section{
+    background-color: #0F0F0F;
+    display: flex;
+    align-content: center;
+    position: absolute;
+    width: 1139px;
+    height: 919px;
+    left: 146px;
+    top: 158px;
+
+}
