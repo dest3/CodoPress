@@ -298,7 +298,7 @@ background: #0F0F0F;
 }
 
 #input_nombre{
-    ox-sizing: border-box;
+    box-sizing: border-box;
 
     position: absolute;
     width: 552px;
@@ -562,5 +562,59 @@ background: #0F0F0F;
     top: 1px;
     border-radius: 4px;
 
+
+}
+
+@media only screen and (max-width: 900px){
+    #noticias{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+
+    #contenido{
+        display: flex;
+        width: 747px;
+        height: 1378px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+    
+    }
+    .nota{
+        width: 361px;
+        height: 203px;
+        
+        background-color: #d27878;
+    
+    }  
+}
+
+
+
+@media only screen and (max-width: 430px){
+    #noticias{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        /* gap: 20px; */
+    }
+
+    #contenido{
+        display: flex;
+        width: 362px;
+        height: 2789px;
+        flex-direction: column;
+    
+    }
+    .nota{
+        width: 361px;
+        height: 203px;
+        
+        background-color: #d27878;
+    }  
 
 }
