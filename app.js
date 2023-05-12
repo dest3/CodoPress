@@ -1,7 +1,7 @@
 
 // made  in jonathan, si algo sale mal culpen al gato 
 // js para insertar el footer , la etiqueta footer debe tener el mismo id 
-document.getElementById("#idfoot").innerHTML =`
+document.getElementById("#idfoot").innerHTML = `
 <section class="container-foot">
 <div class="caja-logo">
   <div class="item-logo">
@@ -38,9 +38,17 @@ document.getElementById("#idfoot").innerHTML =`
 </section>
 
 `
+// caja de comentarios  
+document.getElementById("#box-op").innerHTML = `
+                            <div class="col-fichaOP-2-title">Escribe tu opinión sobre el juego:</div>
+                            <br>
+                            <textarea name="comentarios" ></textarea>
+                            <br>
+                            <input type="submit" value="Publicar">
+`
 // js para el cambio de videos made in jonathan
 let vid1 = document.getElementById("vid-1");
-let  vid2 = document.getElementById("vid-2");
+let vid2 = document.getElementById("vid-2");
 let vid3 = document.getElementById("vid-3");
 let iframeSRC = document.getElementById("ifr");
 // se declaran 4 let y se obtienen el id 
@@ -48,7 +56,7 @@ let iframeSRC = document.getElementById("ifr");
 // entonces se cambia el src del id=ifr , que es el iframe que hace de reproductor principal
 vid1.onclick = function(){
   iframeSRC.src = "https://www.youtube.com/embed/j5Xv2lM9wes";
-  
+   
 }
 vid2.onclick = function(){
   iframeSRC.src = "https://www.youtube.com/embed/E69tKrfEQag";
@@ -77,10 +85,9 @@ function crearUsuario(usuarios){
       Soy de aquellos que veían difícil un remake que superara la versión clásica de Resident Evil 4, pues más allá del factor nostalgia fuertemente presente en mi, el juego clásico objetivamente estuvo muy bien elaborado y envejeció muy bien. Sin embargo, Capcom supo hacer su trabajo y lo logró, este remake superó con creces su versión original y no pude haber quedado más satisfecho.</p>
       <p>06/03/2023</p></span>`
   });
- 
-
-
+  
 }
+
 
 // js para insertar el header , la etiqueta header debe tener el mismo id 
 // document.getElementById("#AQUI EL ID").innerHTML =`

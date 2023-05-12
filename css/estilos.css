@@ -495,7 +495,7 @@ main{
     width: 100%;
 
 }
-.body-juegos,.body-re4{
+.body-juegos,.body-re4,.body-re4-noticias{
     background: #0F0F0F;
 }
 .container-principal{
@@ -758,6 +758,8 @@ main{
     border-bottom: 1px solid #303030;
     color: #AAAAAA;
     display: grid;
+    background: #0F0F0F;
+    
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 1;
     grid-template-areas: "caja-1  caja-2  caja-3";
@@ -860,6 +862,7 @@ main{
     justify-content: center;
     align-items: center;
     color: #AAAAAA;
+    background: #0F0F0F;
 }
 /* Css para re4 remake o cualquier otra igual.. */
 
@@ -1258,6 +1261,7 @@ main{
     resize: none;
     border: none;
     border-radius: 5px;
+    font-size: 1.5vw;
     margin: 0 0 25px 0;
  }
  .col-fichaOP-2 input{
@@ -1272,3 +1276,43 @@ main{
     border: 1px solid #303030;
  }
  
+
+/* css para la noticias de re4 o alguna otra , solo ancho 1440 px*/
+.portada-noticia{
+    width: 100%;
+    height: 560px;
+}
+.portada-noticia img{
+    width: 100%;
+    height: 560px;
+}
+/* cuerpo principal */
+.col-body-noticia{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    color: #AAAAAA;
+
+}
+.col-title-noticia {
+    width: 100%;
+    margin: 30px 0 0 0 ;
+}
+.col-title-noticia h1{
+    color: #FFFFFF;
+}
+.col-title-noticia img{
+    width: 30px;
+    padding: 0 5px 0 0;
+}
+/* informacion de la noticia */
+.col-info-noticia{
+    width: 80%;
+    height: auto;
+    margin: 20px auto 0 auto;
+}
+.col-info-noticia img{
+    margin: 30px auto 10px auto;
+    width: 100%;
+    border-radius: 5px;
+}
