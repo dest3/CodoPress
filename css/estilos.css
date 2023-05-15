@@ -517,8 +517,7 @@ background: #0F0F0F;
 .nota{
     width: 361px;
     height: 203px;
-    background-color: #d27878;
-
+    position:relative;
 }    
 #navegacion{
     display: flex;
@@ -565,6 +564,26 @@ background: #0F0F0F;
 
 }
 
+.nota img{
+    border-radius: 4px;
+    position: absolute;
+    width: 100%;
+    background-size: contain;
+    height: 100%;
+}
+
+.nota h4{
+    width: 100%;
+    justify-content: first baseline;
+    z-index: 3;
+    color: #ffffff;
+    position: relative;
+    align-items:end;
+}
+
+.nota-filtro{
+    display: inline-flex;
+}
 @media only screen and (max-width: 900px){
     #noticias{
         display: flex;
@@ -584,9 +603,9 @@ background: #0F0F0F;
     
     }
     .nota{
+        display: flex;
         width: 361px;
         height: 203px;
-        
         background-color: #d27878;
     
     }  
@@ -613,7 +632,7 @@ background: #0F0F0F;
     .nota{
         width: 361px;
         height: 203px;
-        
+        display: flex;
         background-color: #d27878;
     }  
 
