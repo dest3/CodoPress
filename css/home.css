@@ -1,0 +1,282 @@
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Exo', sans-serif;
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+
+}
+
+h2 {
+    font-family: 'Exo', sans-serif;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+
+}
+
+h4 {
+    font-family: 'Exo', sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+
+}
+
+span.bodyfigma {
+    font-family: 'Exo', sans-serif;
+    font-size: 12px;
+    color: #AAAAAA;
+    font-weight: 400;
+}
+
+span.bodyfigma2 {
+    font-family: 'Exo', sans-serif;
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/*                            SLIDER                               */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+.main {
+    height: 77vh;
+    width: 100%;
+}
+
+.wrapper .slide {
+
+    width: 100%;
+    height: 100%;
+}
+
+.slide {
+    overflow: hidden;
+}
+
+.slide .image-data {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    z-index: 100;
+}
+
+.slide::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.Button2 {
+    font-weight: 400;
+    color: #AAAAAA;
+    background: #272727;
+    border-radius: 4px;
+    border: none;
+    height: 21px;
+    width: 72px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-slider {
+    position: relative;
+    width: 100vw;
+    height: 400px;
+    transform: translate(0%, -15%);
+    z-index: -100;
+}
+
+.img-slider .slider-container {
+    position: absolute;
+    width: 400%;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    animation: slider 26s infinite;
+}
+
+.img-slider .slider-container .slide {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow-x: hidden
+}
+
+.img-slider .slider-container .slide img {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+@keyframes slider {
+
+    0%,
+    25%,
+    100% {
+        left: 0
+    }
+
+    30%,
+    45% {
+        left: -100%
+    }
+
+    50%,
+    65% {
+        left: -200%
+    }
+
+    70%,
+    85% {
+        left: -300%
+    }
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/*                            CARD                                 */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.noticias-destacadas {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+
+.card-data {
+    transform: translate(0%, -130%);
+    width: 330px;
+    margin: auto;
+}
+
+.noticias-destacadas-padre {
+    display: flex;
+    justify-content: center;
+}
+
+.titulodiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    height: 203px;
+}
+
+.titulo-noticias {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.ultimas-noticias {
+    margin-top: 32px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 373px;
+}
+
+.card-container-data {
+    width: 456px;
+}
+
+.card-container-data button,
+h4,
+span {
+    margin-bottom: 10px;
+}
+
+.imagen-data-container {
+    display: flex;
+    width: fit-content;
+    margin-bottom: 32px;
+    gap: 24px;
+}
+
+.divpadre {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 4.5px;
+}
+
+.ultimasnoticias-lanzamientos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+}
+
+.ver-mas {
+    display: flex;
+    justify-content: right;
+    border-top: 1px solid #3F3F3F;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.ver-mas button {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #AAAAAA;
+    text-decoration: none;
+    border: none;
+    background: none;
+    margin-top: 32px;
+}
+
+.ver-mas .icon {
+    color: #FF2A00;
+    margin-top: 32px;
+    margin-bottom:auto
+    
+}
+
+.ofertas {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.promo{
+    border-top: 1px solid #3F3F3F;
+    margin-bottom: 32px;
+}
+
+.card2{
+    height: 103px;
+}
+
+

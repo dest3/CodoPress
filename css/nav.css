@@ -1,0 +1,184 @@
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/*                               NAV                               */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* *{
+     border: 1px solid red;
+} */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    font-family: 'Exo', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+header nav {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0F0F0F;
+    height: 56px;
+    opacity: 80%;
+    border-bottom: 1px solid #3F3F3F;
+}
+
+header nav div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 3vw;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    position: relative;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a:hover,
+a:focus {
+    color: #FF2A00;
+    background: linear-gradient(transparent, rgba(255, 42, 0, 0.3));
+}
+
+a::after {
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: #FF2A00;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    transition: 0.2s;
+    opacity: 0;
+}
+
+a:hover::after,
+a:focus::after {
+    opacity: 1;
+}
+
+.Button1 {
+    color: white;
+    background-color: #FF2A00;
+    border-radius: 4px;
+    height: 32px;
+    width: 167px;
+    border: none;
+    
+    font-family: 'Exo', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.Button1:hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #FF2A00;
+}
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/*                        INPUT DE BÚSQUEDA                        */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+.box {
+    max-width: 328px;
+    width: 300px;
+    display: inline;
+}
+
+.box .searchbox {
+    position: relative;
+    height: 32px;
+    max-width: 0px;
+    margin-left: auto;
+    margin-right: calc(32px + 16px);
+    transition: all 0.3s ease;
+}
+
+#check:checked~.searchbox {
+    max-width: 328px;
+}
+
+.searchbox input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px 0px 0px 4px;
+    background-color: #3F3F3F;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    font-size: 12px;
+    height: 28px;
+}
+
+.searchbox .icon {
+    position: absolute;
+    right: -32px;
+    width: 32px;
+    text-align: center;
+    line-height: 32px;
+    height: 32px;
+    color: white;
+    border-radius: 4px;
+    background-color: #0F0F0F;
+}
+
+.searchbox .icon span {
+    margin-top: 4px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.searchbox .icon:hover{
+    background-color: #3F3F3F;
+}
+
+#check:checked~.searchbox .icon {
+    background-color: #FF2A00;
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    width: 32px;
+}
+
+#check {
+    display: none;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/*                              BODY                               */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+body {
+    background-color: #0F0F0F
+}
+
+
