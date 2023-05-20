@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/estilos.css">
     <title>Residen EviL 4 Remake</title>
+    <!-- esta pagina no es responsive , solo fue hecha para laptop L 1440 de ancho -->
 </head>
 <body class="body-re4">
-    <header>
+    <header id="#idheader">
         <span id="subir"></span>
         <!-- aqui va el header con js -->
-    </header>
+       </header>
     <main>
         <div class="contenedor-re4">
             <section class="cont-img">
@@ -104,11 +111,11 @@
                         <div class="col-fichaUN-img">
                              <h4>ÚLTIMA NOTICIA</h4>
                              <br>
-                            <img src="img/image 34.png" alt="" >
+                            <img src="img/RE.png" alt="" >
                         </div>
                         <div class="col-fichaUN-desc">
                             <h6>Noticias</h6>
-                            <p>La versión de Resident Evil 4 Remake en PS4 recibe críticas por su pobre rendimiento</p>
+                           <a href="re4-noticia.html"><p>La versión de Resident Evil 4 Remake en PS4 recibe críticas por su pobre rendimiento</p></a> 
                             <br>
                             <p>Un análisis técnico determina que Resident Evil 4 Remake tiene una tasa de fotogramas por segundo muy inestable y numerosos problemas visuales que empañan la experiencia de juego en PS4.</p>
                         </div>
@@ -126,17 +133,13 @@
                     <div class="col-fichaOP">
                         <div class="col-fichaOP-1">
                             <div class="col-fichaOP-title"><h4>OPINIONES Y VALORACIONES DE LOS USUARIOS</h4></div>
+                            <!-- insertado con js -->
                             <div class="col-fichaOP-desc" id="#user">
-                               
-                               
+                    
                             </div>
                         </div>
-                        <div class="col-fichaOP-2">
-                            <div class="col-fichaOP-2-title">Escribe tu opinión sobre el juego:</div>
-                            <br>
-                            <textarea name="comentarios" ></textarea>
-                            <br>
-                            <input type="submit" value="Publicar">
+                        <div class="col-fichaOP-2" id="#box-op">
+                            
                             
                         </div>
 

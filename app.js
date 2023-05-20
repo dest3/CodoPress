@@ -1,12 +1,11 @@
 
 // made  in jonathan, si algo sale mal culpen al gato 
 // js para insertar el footer , la etiqueta footer debe tener el mismo id 
-document.getElementById("#idfoot").innerHTML = `
+document.getElementById("#idfoot").innerHTML =`
 <section class="container-foot">
 <div class="caja-logo">
   <div class="item-logo">
-    <img src="img/Vector-icono.png" alt="">
-    <img src="img/Vector-icono-texto.png" alt="">  
+    <img src="img/codopress.svg" alt=""> 
   </div>
     
 </div>
@@ -15,7 +14,7 @@ document.getElementById("#idfoot").innerHTML = `
   <div class="item-list1"><a href="">Redaccion</a></div>
   <div class="item-list2"><a href="">Terminos y condiciones</a></div>
   <div class="item-list3"><a href="">Publicidad / Advertising</a></div>
-  <div class="item-list4"><a href="">Contacto</a></div>
+  <div class="item-list4"><a href="contacto.html">Contacto</a></div>
   <div class="item-list5"><a href="">Politica de cookies</a></div>
 </div>
 <div class="caja-social">
@@ -38,15 +37,42 @@ document.getElementById("#idfoot").innerHTML = `
 </section>
 
 `
+// js para insertar el header , la etiqueta header debe tener el mismo id 
+document.getElementById("#idheader").innerHTML =`
+<nav>
+            <div>
+                <img class="logo" src="./img/Codopress.svg" alt="Codopress Gaming">
+                <a href="index.html">INICIO</a>
+                <a href="juegos.html">JUEGOS</a>
+                <a href="noticias.html">NOTICIAS</a>
+                <a href="contacto.html">CONTACTO</a>
+            </div>
+
+            <div>
+                <div class="box">
+                    <input type="checkbox" id="check">
+                    <div class="searchbox">
+                        <input type="text" placeholder="Buscar...">
+                        <label for="check" class="icon">
+                            <span class="material-symbols-outlined">search</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <button class="Button1"><a href="iniciar sesion.html">INICIAR SESION</a></button>
+            </div>
+        </nav>
+`
 // caja de comentarios  
-document.getElementById("#box-op").innerHTML = `
+document.getElementById("#box-op").innerHTML=`
                             <div class="col-fichaOP-2-title">Escribe tu opinión sobre el juego:</div>
                             <br>
                             <textarea name="comentarios" ></textarea>
                             <br>
                             <input type="submit" value="Publicar">
 `
-// js para el cambio de videos made in jonathan
+
+// el iframe esta en re4-remake
 let vid1 = document.getElementById("vid-1");
 let vid2 = document.getElementById("vid-2");
 let vid3 = document.getElementById("vid-3");
@@ -66,7 +92,8 @@ vid3.onclick = function(){
   iframeSRC.src = "https://www.youtube.com/embed/C_IdgsdHwAo?start=20";
  
 }
-// api del randomuser y su  js para mostrarlos img y nombres aleatorios 
+  // api del randomuser y su  js para mostrarlos img y nombres aleatorios
+//  la api se aplica a re4-remake
 fetch('https://randomuser.me/api/?results=1')// solo es un usuario falso
     .then(response => response.json())
     .then(data => {
@@ -86,13 +113,11 @@ function crearUsuario(usuarios){
       <p>06/03/2023</p></span>`
   });
   
+
+
 }
+// no se que problema pudo ser pero las validaciones las tuve que poner en distintos archivos
 
 
-// js para insertar el header , la etiqueta header debe tener el mismo id 
-// document.getElementById("#AQUI EL ID").innerHTML =`
-
-
-// `
 
 

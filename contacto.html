@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
     <title>contacto</title>
     <link rel="stylesheet" href="css\estilos.css">
 </head>
 <body>
+    <header id="#idheader">
+        <!-- aqui va el header con js -->
+       </header>
     <div id="contact_bk">
         <h2 id="Titulo_contacto">CONTACTO</h2>
         <hr id="divisor_contacto">
-        <form action="">
+        <form action="" id="formulario1">
             <h4 id="label_nombre">Nombre</h4>
-            <input type="text" placeholder="Nombre" id="input_nombre">
+            <input type="text" placeholder="Nombre" class="input_nombre1" id="nombre1">
             <h4 id="label_email">Dirección de e-mail</h4>
-            <input type="email" placeholder="Dirección de e-mail" id="input_email">
+            <input type="email" placeholder="Dirección de e-mail" id="email1" class="input_email1">
             <h4 id="label_asunto">Asunto</h4>
-            <input type="text" placeholder="Asunto" id="input_asunto">
+            <input type="text" placeholder="Asunto" id="asunto1" class="input_asunto1">
             <h4 id="label_mensaje">Mensaje</h4>
             <input type="text" placeholder="Mensaje" id="input_text_box"><br><br>
             <input type="checkbox" id="input_check"> <label id="label_he_leido">He leído y acepto la Política de privacidad</label> 
@@ -25,6 +34,10 @@
             <input type="submit" id="input_enviar">
         </form>
     </div>
-   
+    <footer id="#idfoot">
+        <!-- aqui va el footer con js -->
+    </footer>
+    <script src="app.js"></script>
+    <script src="validar-contacto.js"></script>
 </body>
 </html>

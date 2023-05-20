@@ -5,12 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css\estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>noticas</title>
 </head>
 <body>
-    <!-- <header>
-
-    </header> -->
+    <header id="#idheader">
+        <!-- aqui va el header con js -->
+       </header>
     <div class="caja-tags">
         <select name="tags" class="tags">
           <option value="">Plataformas</option>
@@ -25,18 +36,80 @@
     <div id="noticias">
     
         <div id="contenido">
-            <div class="nota">noticia1</div>
-            <div class="nota">noticia2</div>
-            <div class="nota">noticia3</div>
-            <div class="nota">noticia4</div>
-            <div class="nota">noticia5</div>
-            <div class="nota">noticia6</div>
-            <div class="nota">noticia7</div>
-            <div class="nota">noticia8</div>
-            <div class="nota">noticia9</div>
-            <div class="nota">noticia10</div>
-            <div class="nota">noticia11</div>
-            <div class="nota">noticia12</div>
+            <div class="nota">
+                <img src="img/noticia1.png" alt="">
+                <a href="re4-noticia.html"><h4>La versión de Resident Evil 4 Remake en PS4 recibe críticas por su pobre rendimiento</h4></a>
+                <span class="nota-fecha">06/04/2023</span>
+                <span class="nota-filtro">noticia</span>
+            </div>
+            <div class="nota">
+                <img src="img/noticia2.png" alt="">
+                <h4>Forspoken a pesar de su decepcionante extreno lanza su DLC con fecha de estreno para PS5 y PC</h4>
+                <span class="nota-fecha">05/04/2023</span>
+                <span class="nota-filtro">noticia</span>
+            </div>
+            <div class="nota">
+                <img src="img/noticia3.png" alt="">
+                <h4>Hogwarts Legacy es el juego más vendido de lo que llevamos de 2023 en Estados Unidos</h4>
+                <span class="nota-fecha">03/04/2023</span>
+                <span class="nota-filtro">noticia</span>
+            </div>
+            <div class="nota">
+                <img src="img/noticia4.png" alt="">
+                <h4>La comunidad de Call of Duty: <br> 
+                    ¿Por qué cae en audiencia Warzone 2.0?</h4>
+                <span class="nota-fecha">01/04/2023</span>
+                <span class="nota-filtro">noticia</span>
+            </div>
+            <div class="nota">
+                <img src="img/noticia5.png" alt="">
+                <h4>Todo sobre el nuevo parche 6.4 del Final Fantasy XIV: The Dark Throne</h4>
+                <span class="nota-fecha">31/03/2023</span>
+                <span class="nota-filtro">noticia</span>
+            </div>
+            <div class="nota">
+                <img src="img/noticia6.png" alt="">
+                <h4>Street Fighter 6 revela un nuevo gameplay protagonizado por Cammy y Manon</h4>
+                <span class="nota-fecha">30/03/2023</span>
+                <span class="nota-filtro">noticia</span>
+            </div>
+            <div class="nota">
+                <img src="img/noticia7.png" alt="">
+                <h4>Se filtran detalles sobre Avatar Frontiers of Pandora</h4>
+                <span class="nota-fecha">29/03/2023</span>
+                <span class="nota-filtro">noticia</span>
+            </div>
+            <div class="nota">
+                <img src="img/noticia8.png" alt="">
+                <h4>Ya puedes jugar en Netflix con su nueva propuesta: Terra Nil</h4>
+                <span class="nota-fecha">28/03/2023</span>
+                <span class="nota-filtro">noticia</span>
+            </div>
+            <div class="nota">
+                <img src="img/noticia9.png" alt="">
+                <h4>Ya tiene fecha la nueva expansión de Vampire Survivors
+                </h4>
+                <span class="nota-fecha">27/03/2023</span>
+                <span class="nota-filtro">noticia</span>
+            </div>
+            <div class="nota">
+                <img src="img/noticia10.png" alt="">
+                <h4>Los Goblin se han dispuesto a vengarse en Goblin Stone</h4>
+                <span class="nota-fecha">24/03/2023</span>
+                <span class="nota-filtro">noticia</span>
+            </div>
+            <div class="nota">
+                <img src="img/noticia11.png" alt="">
+                <h4>Capcom anuncia una nueva version en HD de Ghost Trick Detective Fantasma</h4>
+                <span class="nota-fecha">23/03/2023</span>
+                <span class="nota-filtro">noticia</span>
+            </div>
+            <div class="nota">
+                <img src="img/noticia12.png" alt="">
+                <h4>Exoprimal lanza su beta para PC, XBOX y PlayStation</h4>
+                <span class="nota-fecha">22/03/2023</span>
+                <span class="nota-filtro">noticia</span>
+            </div>
         </div>
         
         <div class="mas">CARGAR MÁS</div>
@@ -46,6 +119,9 @@
         <div id="navegacion">
         <div class="boton-top">↑</div>
     </div>
-
+    <footer id="#idfoot">
+        <!-- aqui va el footer con js  -->
+      </footer> 
+      <script src="app.js"></script>
 </body>
 </html>
