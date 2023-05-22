@@ -4,23 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
     <title>inicio de sesión</title>
     <link rel="stylesheet" href="css\estilos.css">
 </head>
 <body>
-    <div id="inicio_de_sesion">
+    <header id="#idheader">
+        <!-- aqui va el header con js -->
+       </header>
+       
+        <div id="inicio_de_sesion" >
         <div id="formulario_IS">
             <h2 id="titulo_iniciarS">INICIAR SESIÓN</h2>
             <hr id="divisor_iniciarS">
             
-            <form action="">
+            <form action="" id="formulario">
                 <h4 id="email_label">Dirección de correo o nombre de usuario</h4>
-                <input type="email" id="Mail_input" placeholder="Dirección de correo o nombre de usuario">
+                <input type="email" id="usuario" class="Mail_input1" placeholder="Dirección de correo ">
                 <h4 id="pass_label">Contraseña</h4>
-                <input type="text" id="Pass_input" placeholder="contraseña"><br><br>
+                <input type="text" id="clave" class="Pass_input1" placeholder="contraseña"><br><br>
                 <input type="checkbox" id="recordar_ck">
                 <label id="recordar_label">mantener sesion iniciada</label>
-                <input type="submit" id="iniciar_sesion"><br><br>
+                <input type="submit" id="iniciar_sesion" value="iniciar sesion"><br><br>
                 <p id="recuperar_contraseña">¿se te ha olvidado la contraseña?</p>
 
                 <h4 id="singIn">crear cuenta</h4>
@@ -29,5 +39,11 @@
             </form>
         </div>
     </div>
+    
+    <footer id="#idfoot">
+        <!-- aqui va el footer con js -->
+    </footer>
+    <script src="app.js"></script>
+    <script src="validar-sesion.js"></script>
 </body>
 </html>
