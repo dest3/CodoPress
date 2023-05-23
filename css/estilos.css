@@ -25,7 +25,7 @@ body{
 #email_label{
     position:relative;
     left: 24px;
-    top: 127px;
+    top: 150px;
     font-family: 'Exo';
     font-style: normal;
     font-weight: 600;
@@ -35,9 +35,9 @@ body{
 }
 
 #recordar_label{
-    position: absolute;
-    left: 52px;
-    top: 393px;
+    position: relative;
+    left: 30px;
+    top: 300px;
     font-family: 'Exo';
     font-style: normal;
     font-weight: 400;
@@ -47,9 +47,9 @@ body{
 }
 
 #pass_label{
-    position: absolute;
+    position: relative;
     left: 24px;
-    top: 259px;
+    top: 250px;
     font-family: 'Exo';
     font-style: normal;
     font-weight: 600;
@@ -58,22 +58,22 @@ body{
 }
 
 #iniciar_sesion{
-    position: absolute;
+    position: relative;
     color:rgba(255, 255, 255, 1) ;
     background-color: rgba(255, 42, 0, 1);
     width: 167px;
     height: 33px;
-    left: 409px;
-    top: 387px;
+    left: 245px;
+    top: 310px;
 
 }
 
 #titulo_iniciarS{
-    position: absolute;
+    position: relative;
     width: 170px;
     height: 20px;
-    left: 24px;
-    top: 43px; 
+    left: 10px;
+    top: 80px; 
     font-family: Exo;
     font-size: 20px;
     font-weight: 600;
@@ -86,7 +86,7 @@ body{
 }
 
 .Mail_input1{
-    position: absolute;
+    position: relative;
     width: 552px;
     height: 64px;
     left: 24px;
@@ -98,33 +98,33 @@ body{
     }
 
 .Pass_input1{
-    position: absolute;
+    position: relative;
     width: 552px;
     height: 64px;
     left: 24px;
-    top: 300px;
+    top: 260px;
     color: #AAAAAA;
     background: #212121;
     border-radius: 4px;
 }
 
 #recordar_ck{
-    position: absolute;
+    position: relative;
     width: 18px;
     height: 18px;
     left: 24px;
-    top: 394px;
+    top: 303px;
     accent-color: #FF2A00;
     background: #FF2A00;
     border-radius: 2px;
     }
 
 #singIn{
-    position: absolute;
+    position: relative;
     width: 83px;
     height: 20px;
     left: 24px;
-    top: 499px;
+    top: 320px;
     font-family: 'Exo';
     font-style: normal;
     font-weight: 600;
@@ -134,9 +134,9 @@ body{
 }
 
 #recuperar_contraseña{
-    position: absolute;   
+    position: relative;   
     left: 24px;
-    top: 447px;
+    top: 300px;
     font-family: 'Exo';
     font-style: normal;
     font-weight: 400;
