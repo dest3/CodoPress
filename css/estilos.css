@@ -4,108 +4,57 @@ body{
     background-color: #0F0F0F;
 }
 #inicio_de_sesion{
-    position: absolute;
+    display: flex;    
+    justify-content: center;
+}
+
+#formulario{
     width: 600px;
-    height: 630px;
-    left: 0px;
-    top: 0px;
-    bottom: 0px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-
-    position: relative;
-    width: 600px;
-    height: 630px;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
-    background: #0F0F0F;
-    border-radius: 10px;
-    }
-
+    height: 630px;    
+}
 
 #divisor_iniciarS{
-    position: absolute;
+    position: relative;
     width: 552px;
     height: 0px;
     left: 24px;
     top: 95px;
-
     border: 1px solid #303030;
 }
 
 #email_label{
-    position: absolute;
-    width: 264px;
-    height: 20px;
+    position:relative;
     left: 24px;
     top: 127px;
-
-    /* H4 */
-
     font-family: 'Exo';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
-    /* identical to box height, or 143% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-
     color: #FFFFFF;
 }
+
 #recordar_label{
     position: absolute;
-    width: 136px;
-    height: 20px;
     left: 52px;
     top: 393px;
-
-    /* Body */
-
     font-family: 'Exo';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
-    /* identical to box height, or 167% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-
     color: #AAAAAA;
-
 }
 
 #pass_label{
     position: absolute;
-    width: 74px;
-    height: 20px;
     left: 24px;
     top: 259px;
-
-    /* H4 */
-
     font-family: 'Exo';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
-    /* identical to box height, or 143% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #FFFFFF;
 }
 
 #iniciar_sesion{
@@ -124,29 +73,19 @@ body{
     width: 170px;
     height: 20px;
     left: 24px;
-    top: 43px;
-
- 
+    top: 43px; 
     font-family: Exo;
     font-size: 20px;
     font-weight: 600;
     line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
-    
-
-    display: flex;
-    align-items: center;
-    text-align: center;
     text-transform: uppercase;
-
     color: #FFFFFF;
 
 }
 
 .Mail_input1{
-    box-sizing: border-box;
-
     position: absolute;
     width: 552px;
     height: 64px;
@@ -159,15 +98,12 @@ body{
     }
 
 .Pass_input1{
-    box-sizing: border-box;
-
     position: absolute;
     width: 552px;
     height: 64px;
     left: 24px;
     top: 300px;
     color: #AAAAAA;
-
     background: #212121;
     border-radius: 4px;
 }
@@ -189,42 +125,24 @@ body{
     height: 20px;
     left: 24px;
     top: 499px;
-
-    /* H4 */
-
     font-family: 'Exo';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    line-height: 20px;
-    /* identical to box height, or 143% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-
+    line-height: 20px;  
     color: #FFFFFF;
 }
 
 #recuperar_contraseña{
-    position: absolute;
-    width: 186px;
-    height: 20px;
+    position: absolute;   
     left: 24px;
     top: 447px;
-
     font-family: 'Exo';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
-    /* identical to box height, or 167% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
     text-decoration-line: underline;
-
     color: #FFFFFF;
 
 }
@@ -234,11 +152,11 @@ body{
 
 #contact_bk{
     position: relative;
-width: 1440px;
-height: 1207px;
+    width: 1440px;
+    height: 1207px;
 
-background: #0F0F0F;
-}
+    background: #0F0F0F;
+    }
 
 #Titulo_contacto{
     position: absolute;
