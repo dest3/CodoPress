@@ -1,6 +1,6 @@
 
 // made  in jonathan, si algo sale mal culpen al gato 
-// js para insertar el footer , la etiqueta footer debe tener el mismo id 
+// js para insertar el footer , la etiqueta footer debe tener el mismo id.
 document.getElementById("#idfoot").innerHTML =`
 <section class="container-foot">
 <div class="caja-logo">
