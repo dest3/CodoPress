@@ -10,15 +10,15 @@ document.getElementById("#idfoot").innerHTML =`
     
 </div>
 <div class="caja-general">
-  <div class="item-titulo-g">General</div>
-  <div class="item-list1"><a href="">Redaccion</a></div>
-  <div class="item-list2"><a href="">Terminos y condiciones</a></div>
-  <div class="item-list3"><a href="">Publicidad / Advertising</a></div>
-  <div class="item-list4"><a href="contacto.html">Contacto</a></div>
-  <div class="item-list5"><a href="">Politica de cookies</a></div>
+  <div class="item-titulo-g">GENERAL</div>
+  <div class="item-list1"><a href="">REDACCIÓN</a></div>
+  <div class="item-list2"><a href="">TERMINOS Y CONDICIONES</a></div>
+  <div class="item-list3"><a href="">PUBLICIDAD / ADVERTISING</a></div>
+  <div class="item-list4"><a href="CONTACTO.html">Contacto</a></div>
+  <div class="item-list5"><a href="">POLITICA DE COOKIES</a></div>
 </div>
 <div class="caja-social">
-  <div class="item-titulo-s">Social</div>
+  <div class="item-titulo-s">SOCIAL</div>
   <div class="item-social">
    <a href=""><img src="img/Vector-twitter.svg" alt=""></a>
    <a href=""><img src="img/Vector-facebook.svg" alt=""></a>
